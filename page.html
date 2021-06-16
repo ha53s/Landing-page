@@ -1,0 +1,228 @@
+<html lang ="en">
+  <head>
+    <title>Landing Page</title>
+  </head>
+  
+  <style>
+  
+  body{
+  color:red;
+  background-color:#222D33 ;
+}
+
+@media (max-width :350px){
+  font-size:18px;
+}
+
+#header{
+  background-color:black;
+  margin:25px;
+  border-radius:10px;
+  box-shadow: 3px 3px #353C40;
+  height:80px;
+}
+
+#nav-bar{
+  
+}
+#nav-list{
+  display:flex;
+  list-style-type:none;
+  
+}
+
+
+img{
+  width:80px;
+  border-radius:10px;
+}
+
+.nav{
+  font-size:19px;
+  font-weight:normal;
+  margin:40px;
+  color:#4CB1EC ;
+  position:relative;
+  bottom:110px;
+  left:60px;
+  
+}
+a{
+  text-decoration:none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1{
+  text-align:center;
+  font-size:50px;
+  margin:100px;
+  color:#4CB1EC;
+}
+h2{
+  text-align:center;
+  font-size:40px;
+  color:#4CB1EC;
+}
+
+#video{
+  
+  width:55%;
+  height:400px;   
+}
+
+#video-div{
+text-align:center;
+}
+
+
+#sub{
+  display:flex;
+  float:left;
+  text-align:center;
+  width:70%;
+  margin:14%;
+  justify-content:space-between;
+  position:relative;
+  bottom:140px;
+}
+.box{
+  background-image: linear-gradient(90deg,#4CB1EC,#29E4E5 );
+  padding:30px;
+  width:25%;
+  border: 10px solid white;
+  border-radius:19px;
+  
+}
+
+ul{
+  list-style-type:none;
+}
+
+.title{
+  font-size:28px;
+  font-weight:bold;
+  color:#225252;
+  position:relative;
+  right:18px;
+  bottom:15px;
+  border: 1px solid #225252;
+}
+
+.price{
+  font-size:24px;
+  font-weight:bold;
+  color:#9A1D04;
+  position:relative;
+  right:16px;
+}
+
+li{
+   font-size:24px;
+  font-weight:bold;
+  color:#225252;
+  position:relative;
+  right:16px;
+  
+}
+
+form{
+  text-align:center;
+}
+
+label{
+  font-size:22px;
+  position:relative;
+  bottom:220px;
+  color:white;
+}
+#email{
+  margin:22px;
+  width:25%
+}
+#btn{
+  font-size:22px;
+  position:relative;
+  bottom:220px;
+  background-image:linear-gradient(90deg,#4CB1EC,#29E4E5 );
+  border-radius:5px;
+  width:8%;
+}
+</style>
+  
+  <body>
+    
+    <header id = "header">
+        <img id = "header-img" src= 'https://i.pinimg.com/originals/f2/4b/9c/f24b9c207b514ce3de71e63acc58380d.jpg' alt ="logo"</img>
+      <nav id ="nav-bar">
+           <ul id="nav-list">
+             <a href ="#" class ="nav-link"> <li class ="nav">Home</li></a>
+             <a href ="#" class ="nav-link"> <li class ="nav">Store</li></a>
+             <a href ="#" class ="nav-link"> <li class ="nav">Membership</li></a>
+             <a href ="#" class ="nav-link"> <li class ="nav">Contact</li></a>
+           
+           </ul>
+     
+        </nav>
+    </header>
+    <div id ="top">
+      <h1>Landing Page For Product<h1>
+       
+    </div>
+         
+         <div id ="video-div">
+      <iframe
+        id="video"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+           <h2>Our Plans: <h2>
+         </div>
+        
+        <div id ="sub">
+          <div class ="box one">
+            <ul>
+              <li class ="title">~Gold~</li>
+              <li class ="price">1200$<li>
+              <li>- Lorem ipsum<li>
+              <li>- Lorem ipsum<li>
+              <li>- Lorem ipsum<li>
+              <li>- Lorem ipsum<li>
+              
+            </ul>
+          </div>
+          
+               <div class ="box two">
+            <ul>
+              <li class ="title">~Silver~</li>
+              <li class ="price">950$<li>
+              <li>- Lorem ipsum<li>
+              <li>- Lorem ipsum<li>
+              <li>- Lorem ipsum<li>
+              <li>- Lorem ipsum<li>
+            </ul>
+          </div>
+          
+               <div class ="box three">
+            <ul>
+              <li class ="title">~Bronze~</li>
+              <li class ="price">700$<li>
+              <li>- Lorem ipsum<li>
+              <li>- Lorem ipsum<li>
+              <li>- Lorem ipsum<li>
+              
+            </ul>
+          </div>
+        </div>
+          <form id = "f-eamil">
+              <label for ="email">Enter yor email:
+             <input id = "email" name = "email type ="email" placeholder="emaple@example.com">
+           </label>
+           <br>
+           <input id = "btn" type="submit" Value = "Submit">
+         </form>
+  </body> 
+  
+</html>
